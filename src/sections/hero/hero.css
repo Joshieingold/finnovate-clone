@@ -1,0 +1,33 @@
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("../../assets/Train.png");
+    align-items: center;
+    flex-direction: row;
+}
+.hero-right {
+    display: flex;
+    width: 30%;
+}
+.hero-left {
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 50%;
+    height: 100%;
+    color: var(--font-color);
+}
+.hero-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 400;
+    letter-spacing: -0.125rem;
+}
+.hero-subheading {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    letter-spacing: -0.03125rem;
+}

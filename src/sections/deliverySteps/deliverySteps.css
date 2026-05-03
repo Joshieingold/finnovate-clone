@@ -1,0 +1,21 @@
+.delivery-steps-section {
+    display: flex;
+    background-image: url("../../assets/FinalTrain.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+.delivery-left {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-right {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+}

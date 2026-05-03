@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+
+    /* Global Color Usings */
+    --font-color: #181817;
+    --button-color: #181817;
+    --button-font-color: white;
+    --alt-font-color: #484846;
+    --light-border: #dddddc;
+    --brand-blue: #27aae1;
+    --brand-white: #ffffff;
+}
+:root {
+    /* Gradients */
+    --blue-background: linear-gradient(
+        90deg,
+        rgba(221, 236, 245, 1) 0%,
+        #eef3f6 33%,
+        #eef3f6 66%,
+        rgba(221, 236, 245, 1) 100%
+    );
+    --white-background: linear-gradient(90deg, rgba(255, 255, 255, 1) 100%);
+}
+section {
+    height: 100vh;
+}
+
+input {
+    border: 1px solid var(--light-border);
+    background: var(--brand-white);
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button {
+    background: radial-gradient(circle at 50% 50%, var(--button-color) 0%);
+    font-size: 12pt;
+    color: var(--button-font-color);
+    cursor: pointer;
+    border-radius: 15rem;
+    border: none;
+    padding: 12px 20px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.4s ease-in;
+}
+
+button:hover {
+    background: radial-gradient(
+        circle at 50% 125%,
+        rgba(135, 135, 135, 1) 0%,
+        var(--button-color) 50%
+    );
+}
+
+a {
+    cursor: pointer;
+}
+
+.blue {
+    background: var(--blue-background);
+    transition: background 0.5s ease-in-out;
+}
+.white {
+    background: var(--white-background);
+    transition: background 0.5s ease-in-out;
+}
+.hidden {
+    display: none !important;
+}

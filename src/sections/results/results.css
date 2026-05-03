@@ -1,0 +1,26 @@
+.results-section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.results-title {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.09375rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.results-subtite {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0;
+}
+.results-bottom {
+    height: 80%;
+}

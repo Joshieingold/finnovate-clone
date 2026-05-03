@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "deliveryTitle": "The blueprint",
+            "deliveryDesc": "We skip the month-long ideation cycle. We dive straight into the needs of your business to define a lean, actionable roadmap within days, not months."
+        },
+        {
+            "deliveryTitle": "The architecture",
+            "deliveryDesc": "We don't just create screens; we integrate systems and identify opportunities for AI. We map out a scalable architecture and intuitive user flows that ensure your product works as beautifully as it looks."
+        },
+        {
+            "deliveryTitle": "The build",
+            "deliveryDesc": "Our experienced designers and engineers work in transparent, agile sprints. You get deployed, testable code every single week so you can validate features in real-time."
+        },
+        {
+            "deliveryTitle": "The launch",
+            "deliveryDesc": "Shipping is just the starting line. We ensure a flawless deployment to the cloud, monitor real-world performance, and help you interpret user data to drive the next phase of growth."
+        }
+    ]
+}

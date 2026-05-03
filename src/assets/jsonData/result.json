@@ -1,0 +1,46 @@
+{
+    "slideShowData": [
+        {
+            "key": 1,
+            "logo": "https://finnovate.io/_next/static/media/mariner.930aeaa3.png",
+            "title": "Wealth management",
+            "img": "https://finnovate.io/_next/static/media/wealth.db896830.png",
+            "desc": "We developed a financial planning and wellness platform that will allow the already well-established Mariner team access to a new demographic with investable assets."
+        },
+        {
+            "key": 2,
+            "logo": "https://finnovate.io/_next/static/media/lending360.d7b5ce79.png",
+            "title": "Lending",
+            "img": "https://finnovate.io/_next/static/media/lending.d7b1b855.png",
+            "desc": "We transformed 360Lending’s digital platform into a user-friendly experience that streamlines loan origination, improves financial literacy, and empowers Canadian homeowners to make informed decisions."
+        },
+        {
+            "key": 3,
+            "logo": "https://finnovate.io/_next/static/media/dcbank.22865f72.svg",
+            "title": "Payment & ecommerce",
+            "img": "https://finnovate.io/_next/static/media/payment.8431fdf7.png",
+            "desc": "We designed and developed DC Bank's digital banking platform, offering unique features to businesses through seamless integration with essential banking and provisioning of virtual cards in mobile wallets."
+        },
+        {
+            "key": 4,
+            "logo": "https://finnovate.io/_next/static/media/girls3d.4378f750.svg",
+            "title": "Education",
+            "img": "https://finnovate.io/_next/static/media/education.ee1df2d1.png",
+            "desc": "We helped 3D Girls transform their in-person summer and afterschool programs into a vibrant, gamified digital experience that inspires, educates, and connects young girls."
+        },
+        {
+            "key": 5,
+            "logo": "https://finnovate.io/_next/static/media/nextmv.a17529a4.svg",
+            "title": "Startups",
+            "img": "https://finnovate.io/_next/static/media/startups.415a2e49.png",
+            "desc": "We partnered with Nextmv.io (YC W20) to develop a modern front-end experience for building decision models, allowing the Nextmv.io team to focus on refining and advancing their core proprietary technology."
+        },
+        {
+            "key": 6,
+            "logo": "https://finnovate.io/_next/static/media/ecoschools.13e95810.png",
+            "title": "Non-profits",
+            "img": "https://finnovate.io/_next/static/media/nonprofits.ceffb664.png",
+            "desc": "We built a more accessible and engaging platform for EcoSchools Canada, which helped them scale nationally. Our omni-channel tool is driving environmental action in every primary and secondary school across Canada."
+        }
+    ]
+}

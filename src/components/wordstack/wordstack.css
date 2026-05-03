@@ -1,0 +1,26 @@
+.wordstack {
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 50%;
+    height: 100%;
+    width: 100%;
+    color: var(--font-color);
+}
+.stack-title {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.09375rem;
+    margin-bottom: 1rem;
+}
+.stack-desc {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: var(--alt-font-color);
+}
