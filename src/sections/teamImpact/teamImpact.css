@@ -1,0 +1,38 @@
+.team-impact-section {
+    background-image: url("https://finnovate.io/_next/static/media/trainLineCenter.eed83412.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.team-impact-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+.team-impact-title-wrapper {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.09375rem;
+    position: relative;
+    text-align: center;
+    max-width: 35rem;
+    align-items: center;
+}
+.blue-text {
+    color: var(--brand-blue);
+}
+.team-impact-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}

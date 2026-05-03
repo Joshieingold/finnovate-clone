@@ -1,0 +1,51 @@
+.life-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    p {
+        margin-bottom: 2rem;
+    }
+}
+.life-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90%;
+    width: 100%;
+}
+.life-image-wrapper {
+    display: flex;
+    position: relative;
+}
+.life-image {
+    img {
+        width: 35rem;
+    }
+}
+.life-image-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.life-backdrop {
+    position: absolute;
+    z-index: -1;
+}
+.img-wrapper-one {
+    left: 25rem;
+    top: 0;
+}
+.img-wrapper-two {
+    right: 25rem;
+    top: 10;
+}
+.life-two {
+    transform: translate(4rem, -2rem);
+}
+.life-one {
+    transform: translate(-15rem, 5rem);
+}

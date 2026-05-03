@@ -1,25 +1,20 @@
 import "./App.css";
-import Hero from "./sections/hero/hero";
-import Navbar from "./sections/navbar/navbar";
-import Company from "./sections/company/company";
-import Contact from "./sections/contact/contact";
+import Home from "./pages/home";
+import Team from "./pages/team";
 import Footer from "./sections/footer/footer";
-import SoftwareTeams from "./sections/softwareTeams/softwareTeams";
-import DeliverySteps from "./sections/deliverySteps/deliverySteps";
-import Results from "./sections/results/results";
+import Navbar from "./sections/navbar/navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
-        <>
+        <BrowserRouter>
             <Navbar />
-            <Hero />
-            <Company />
-            <SoftwareTeams />
-            <DeliverySteps />
-            <Results />
-            <Contact title="Tell us about your destination" />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/team" element={<Team />} />
+            </Routes>
             <Footer />
-        </>
+        </BrowserRouter>
     );
 }
 

@@ -1,0 +1,41 @@
+.team-hero {
+    display: flex;
+    background-image: url("https://finnovate.io/_next/static/media/trainLineRight.07c399d9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.team-hero-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: -0.125rem;
+}
+.team-hero-image-wrapper {
+    display: flex;
+    height: 25rem;
+    width: 45rem;
+    padding: 1rem;
+    background-color: var(--brand-light-blue);
+    border-radius: 2rem;
+}
+.team-hero-image {
+    border-radius: 0.75rem;
+    object-fit: cover;
+    width: 100%;
+}
+.team-hero-desc {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.03125rem;
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 50rem;
+}

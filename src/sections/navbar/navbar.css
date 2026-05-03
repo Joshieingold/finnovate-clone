@@ -41,3 +41,7 @@
     width: 45%;
     margin-left: 25px;
 }
+.nav-link {
+    color: var(--font-color);
+    text-decoration: none;
+}
