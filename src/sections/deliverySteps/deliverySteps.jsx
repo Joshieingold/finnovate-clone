@@ -9,8 +9,7 @@ function DeliverySteps() {
         "Great products don't happen by accident. We follow a transparent, AI-assisted methodology that ensures every feature serves a business purpose. No bloated software.";
     const stackButtonText = "Work with us";
     function placeholder() {
-        console.log("Hello world!");
-        console.log(rawData.items);
+        console.log("What are you doing looking in the console?");
     }
     return (
         <section className="delivery-steps-section">
