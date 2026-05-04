@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 80vh;
     p {
         margin-bottom: 2rem;
     }
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 90%;
+    height: 80%;
     width: 100%;
 }
 .life-image-wrapper {
